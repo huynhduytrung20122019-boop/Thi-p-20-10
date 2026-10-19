@@ -12,6 +12,18 @@ const text =
 let kq = "";
 hoa1.classList.add("hidden");
 
+//Phát nhạc
+document.addEventListener(
+  "click",
+  function () {
+    const music = document.getElementById("bg-music");
+    if (music && music.muted) {
+      music.muted = false;
+      music.play();
+    }
+  },
+  { once: true },
+);
 // Trái tim
 
 function taoTraiTimRoi() {
