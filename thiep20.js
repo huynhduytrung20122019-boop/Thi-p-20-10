@@ -33,14 +33,13 @@ function taoTraiTimRoi() {
   const heart = document.createElement("div");
   heart.classList.add("heart");
   const span = document.createElement("span");
-  span.innerHTML = "x";
+  span.innerHTML = "❤️";
   const img = document.createElement("img");
   img.src = "image/cute.jpg";
   img.classList.add("heart-img");
   heart.appendChild(span);
   heart.appendChild(img);
   //heart.innerHTML = "x";
-  README.md;
   const randomHorizontalPosition = Math.random() * 100;
   heart.style.left = randomHorizontalPosition + "vw";
 
