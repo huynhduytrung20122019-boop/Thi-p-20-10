@@ -22,11 +22,11 @@ function taoTraiTimRoi() {
   heart.classList.add("heart");
   const span = document.createElement("span");
   span.innerHTML = "❤️";
-  // const img = document.createElement("img");
-  // img.src = "image/trung.jpg";
-  // img.classList.add("heart-img");
+  const img = document.createElement("img");
+  img.src = "image/cute.jpg";
+  img.classList.add("heart-img");
   heart.appendChild(span);
-  //heart.appendChild(img);
+  heart.appendChild(img);
   //heart.innerHTML = "❤️";
 
   const randomHorizontalPosition = Math.random() * 100;
@@ -44,7 +44,7 @@ function taoTraiTimRoi() {
     heart.remove();
   }, duration * 10000);
 }
-setInterval(taoTraiTimRoi, 300);
+setInterval(taoTraiTimRoi, 900);
 
 btn1.forEach((key) => {
   key.addEventListener("click", () => {

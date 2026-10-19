@@ -153,14 +153,13 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 .heart-img {
   width: 40px;
   height: 35px;
   object-fit: cover;
   border-radius: 5px;
-  border: 1px solid #ff4d6d;
-  margin-right: 4px;
 }
 @keyframes RoiTrenXuong {
   0% {
@@ -203,5 +202,8 @@ img {
   .pass-card {
     width: 200px;
     margin-right: 80px;
+  }
+  .btn1 {
+    margin-bottom: 10px;
   }
 }
