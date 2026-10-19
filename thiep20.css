@@ -95,7 +95,7 @@ h2 {
     transform: perspective(1000px) rotateY(0deg);
   }
   100% {
-    transform: perspective(1000px) rotateY(360deg);
+    transform: perspective(1000px) rotateY(150deg);
   }
 }
 @keyframes XacThuc {
@@ -107,7 +107,7 @@ h2 {
   }
 }
 .xoay {
-  animation: XoayTron 8s linear infinite;
+  animation: XoayTron 5s ease-in-out infinite;
 }
 p {
   font-weight: bold;
@@ -149,26 +149,26 @@ img {
   color: #ff4d6d;
   font-size: 16px;
   user-select: none;
-  animation: RoiTrenXuong linear infinite;
+  animation: RoiTrenXuong ease-in-out infinite;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .heart-img {
-  width: 35px !important;
-  height: 35px !important;
+  width: 40px;
+  height: 35px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 5px;
   border: 1px solid #ff4d6d;
   margin-right: 4px;
 }
 @keyframes RoiTrenXuong {
   0% {
-    transform: translateY(-10px) rotate(0deg);
+    transform: translateY(-10px);
     opacity: 1;
   }
   100% {
-    transform: translateY(105vh) rotate(360deg);
+    transform: translateY(105vh);
     opacity: 0.2;
   }
 }
@@ -198,4 +198,10 @@ img {
   width: 50px;
   height: 30px;
   margin-bottom: 5px;
+}
+@media (max-width: 600px) {
+  .pass-card {
+    width: 200px;
+    margin-right: 80px;
+  }
 }
