@@ -8,7 +8,7 @@ const Lay = document.querySelector(".message p");
 const mes = document.getElementById("mes");
 const Btn1 = document.getElementById("nut-dong");
 const text =
-  "Chúc cậu ngày 20/10 thật vui vẻ nha! Chúc cậu lúc nào cũng xinh đẹp, đáng yêu, luôn gặp nhiều may mắn và có thật nhiều niềm vui trong cuộc sống. Mong hôm nay cậu sẽ nhận được thật nhiều lời chúc và những điều dễ thương. Đặc biệt, nhớ cười thật nhiều nhé, vì nụ cười của cậu rất đẹp! 🌷😊";
+  "Chúc bạn ngày 20/10 thật vui vẻ nha! Chúc bạn lúc nào cũng xinh đẹp, đáng yêu, luôn gặp nhiều may mắn và có thật nhiều niềm vui trong cuộc sống. Mong hôm nay bạn sẽ nhận được thật nhiều lời chúc và những điều dễ thương. Đặc biệt, nhớ cười thật nhiều nhé, vì nụ cười của bạn rất đẹp! 🌷😊";
 let kq = "";
 hoa1.classList.add("hidden");
 
